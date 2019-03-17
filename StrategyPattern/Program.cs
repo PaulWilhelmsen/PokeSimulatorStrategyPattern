@@ -8,11 +8,11 @@ namespace StrategyPattern
         {
             var poke = new PokeSimulator();
             poke.SetPokeStrategy(PokeAnd.Run);
-            poke.Poke("Tpg");
+            poke.Poke("Erik");
             Console.WriteLine("");
 
             poke.SetPokeStrategy(PokeAnd.Talk);
-            poke.Poke("Caroline");
+            poke.Poke("Eirik");
             Console.ReadKey();
         }
     }
